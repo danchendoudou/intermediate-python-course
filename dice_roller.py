@@ -6,6 +6,7 @@ def main():
   for i in range(0,dice_rolls):
     roll = random.randint(1,dice_size)
     dice_sum += roll
+    
     if roll == 1:
       print(f'You rolled a {roll}! Critical Fail')
     elif roll == dice_size:
